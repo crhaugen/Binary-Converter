@@ -35,10 +35,12 @@ void loop()
   String tempNumber = " ";
   char digit = ' ';
   
+  //if the user has not inputted a # keep getting numbers
   while(digit != '#')
   {
     digit = customKeypad.getKey();
 
+      //if the input is not a number don't add it
      if(0 <= digit && digit >= 9)
      {
         tempNumber += digit;
