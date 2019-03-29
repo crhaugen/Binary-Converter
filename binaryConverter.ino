@@ -11,6 +11,7 @@ char hexaKeys[ROWS][COLS] = {
   {'7','8','9','C'},
   {'*','0','#','D'}
 };
+
 byte rowPins[ROWS] = {9, 8, 7, 6}; //connect to the row pinouts of the keypad
 byte colPins[COLS] = {5, 4, 3, 2}; //connect to the column pinouts of the keypad
 
@@ -47,8 +48,10 @@ void loop()
      }
   }
 
+  //get the string of numbers into ints
   int number = tempNumber.toInt();
   
+  //if number is between one byte I can convert
   if(0 <= number && number <= 255)
   {
     for(int i = 7; i >= 0; i--)
