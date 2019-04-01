@@ -54,6 +54,7 @@ void loop()
   //if number is between one byte I can convert
   if(0 <= number && number <= 255)
   {
+    //for each bit see if it should be 1 or 0 
     for(int i = 7; i >= 0; i--)
     {
       int binaryBit = number >> i;
