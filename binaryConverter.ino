@@ -62,12 +62,12 @@ void loop()
       if(binaryBit & 1)
       {
         Serial.print(1);
-        digitalWrite(leds[i], HIGH);
+        digitalWrite(leds[i], HIGH); //turn this led on
       }
       else
       {
         Serial.print(0);
-        digitalWrite(leds[i], LOW);
+        digitalWrite(leds[i], LOW); //turn this led off
       }
     }
 
