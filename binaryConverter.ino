@@ -15,7 +15,7 @@ char hexaKeys[ROWS][COLS] = {
 byte rowPins[ROWS] = {9, 8, 7, 6}; //connect to the row pinouts of the keypad
 byte colPins[COLS] = {5, 4, 3, 2}; //connect to the column pinouts of the keypad
 
-int leds[LED_NUM] = {28, 29, 30, 31, 32, 33, 34, 35};
+int leds[LED_NUM] = {28, 29, 30, 31, 32, 33, 34, 35}; //led being mapped to strings
 
 //initialize an instance of class NewKeypad
 Keypad customKeypad = Keypad( makeKeymap(hexaKeys), rowPins, colPins, ROWS, COLS); 
