@@ -44,7 +44,7 @@ void loop()
       //if the input is not a number don't add it
      if(0 <= digit && digit >= 9)
      {
-        tempNumber += digit;
+        tempNumber += digit; //adding digits to string
      }
   }
 
