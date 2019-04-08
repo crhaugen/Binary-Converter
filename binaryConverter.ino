@@ -57,8 +57,9 @@ void loop()
     //for each bit see if it should be 1 or 0 
     for(int i = 7; i >= 0; i--)
     {
-      int binaryBit = number >> i;
+      int binaryBit = number >> i; 
   
+      //seeing if its a '1' or '0'
       if(binaryBit & 1)
       {
         Serial.print(1);
