@@ -39,7 +39,7 @@ void loop()
   //if the user has not inputted a # keep getting numbers
   while(digit != '#')
   {
-    digit = customKeypad.getKey();
+    digit = customKeypad.getKey(); //reading in butttom being pressed on keypad
 
       //if the input is not a number don't add it
      if(0 <= digit && digit >= 9)
