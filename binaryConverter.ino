@@ -27,7 +27,7 @@ void setup()
 
   for(int i = 0; i < LED_NUM; i++)
   {
-    pinMode(leds[i], OUTPUT);
+    pinMode(leds[i], OUTPUT); //SETTING PINS TO OUTPUT
   }
 }
   
