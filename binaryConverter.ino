@@ -30,7 +30,8 @@ void setup()
     pinMode(leds[i], OUTPUT); //SETTING PINS TO OUTPUT
   }
 }
-  
+ 
+/just keep running program
 void loop()
 {
   String tempNumber = " ";
