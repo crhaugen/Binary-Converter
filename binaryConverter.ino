@@ -31,7 +31,7 @@ void setup()
   }
 }
  
-/just keep running program
+//just keep running program
 void loop()
 {
   String tempNumber = " ";
