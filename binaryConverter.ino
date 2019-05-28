@@ -1,3 +1,4 @@
+//Author: Chyanne Haugen
 #include <Keypad.h>
 
 const byte ROWS = 4; 
