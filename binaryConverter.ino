@@ -1,6 +1,7 @@
 //Author: Chyanne Haugen
 #include <Keypad.h>
 
+//number of row and cols are const
 const byte ROWS = 4; 
 const byte COLS = 4;
 const int LED_NUM = 8;
