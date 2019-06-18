@@ -1,4 +1,5 @@
 //Author: Chyanne Haugen
+//program takes number input and dispays the binary in lights
 #include <Keypad.h>
 
 //number of row and cols are const
