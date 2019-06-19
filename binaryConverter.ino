@@ -76,6 +76,7 @@ void loop()
       }
     }
 
+    //testing printout
     Serial.println();
   }
 }
